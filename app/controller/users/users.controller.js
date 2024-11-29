@@ -1,6 +1,6 @@
-const { all } = require('../../routes/users.routes')
 const db = require('./../../models')
 const geoGraphicalDistance = require('./../../services/geoGraphicalDistance')
+var logger = require('./../../services/logger')
 
 const Users = db.users
 
@@ -17,10 +17,11 @@ module.exports = {
                 longitude: longitude
             }
             const user = await Users.create(obj)
-            return res.status(201).json({ success: true, message: "User created successfully" })
+            logger.info('user/add');
+            return res.status(201).json({ success: true, message: "User created successfully", })
 
         } catch (error) {
-            console.log(error);
+            logger.error(error.message);
             return res.status(500).json({ success: false``, message: "User not created successfully" })
         }
     },
@@ -28,10 +29,10 @@ module.exports = {
     getAllUsers: async (req, res) => {
         try {
             const users = await Users.findAll()
+            logger.info('user/get');
             return res.json({ success: true, data: users })
-
         } catch (error) {
-            console.log(error);
+            logger.error(error.message);
             return res.status(500).json({ success: false, message: "Failed to get users" })
         }
     },
@@ -45,7 +46,7 @@ module.exports = {
             var nearUser = []
 
             const allUser = await Users.findAll()
-             await allUser.map((item) => {
+            await allUser.map((item) => {
                 var userDistance = {
                     latitude: item.latitude,
                     longitude: item.longitude,
@@ -56,11 +57,11 @@ module.exports = {
                     nearUser.push(item)
                 }
             })
-            return res.status(200).json({success: true, message:'all user get successfully!', data: nearUser})
-            
+            logger.info('user/getnearuser');
+            return res.status(200).json({ success: true, message: 'all user get successfully!', data: nearUser })
 
         } catch (error) {
-            console.log(error);
+            logger.error(error.message);
         }
     }
 

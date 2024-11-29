@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 const db = require("./app/models")
 // db.sequelize.sync();
 
-const userRouter = require('./app/routes/users.routes')
+const userRouter = require('./app/routes/users.routes');
 app.use(userRouter)
 
 

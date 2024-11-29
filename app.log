@@ -1,0 +1,72 @@
+2024-11-29T08:25:51.348Z info: ----------------------------------------------------------------
+2024-11-29T08:26:34.723Z info: This is an info message
+2024-11-29T08:26:34.726Z error: This is an error message
+2024-11-29T08:26:34.726Z warn: This is a warning message
+2024-11-29T08:26:34.726Z info: ----------------------------------------------------------------
+2024-11-29T08:26:40.544Z info: ----------------------------------------------------------------
+2024-11-29T08:26:48.073Z info: This is an info message
+2024-11-29T08:26:48.076Z error: This is an error message
+2024-11-29T08:26:48.077Z warn: This is a warning message
+2024-11-29T08:26:55.022Z info: This is an info message
+2024-11-29T08:26:55.025Z error: This is an error message
+2024-11-29T08:26:55.026Z warn: This is a warning message
+2024-11-29T08:27:51.175Z [32minfo[39m: This is an info message
+2024-11-29T08:27:51.179Z [31merror[39m: This is an error message
+2024-11-29T08:27:51.179Z [33mwarn[39m: This is a warning message
+2024-11-29T08:27:52.262Z [32minfo[39m: This is an info message
+2024-11-29T08:27:52.265Z [31merror[39m: This is an error message
+2024-11-29T08:27:52.266Z [33mwarn[39m: This is a warning message
+undefined
+undefined
+undefined
+[32minfo[39m: This is an info message {"timestamp":"2024-11-29T08:30:05.100Z"}
+[31merror[39m: This is an error message {"timestamp":"2024-11-29T08:30:05.105Z"}
+[33mwarn[39m: This is a warning message {"timestamp":"2024-11-29T08:30:05.105Z"}
+[32minfo[39m: This is an info message {"timestamp":"2024-11-29T08:30:47.660Z"}
+[31merror[39m: This is an error message {"timestamp":"2024-11-29T08:30:47.663Z"}
+[33mwarn[39m: This is a warning message {"timestamp":"2024-11-29T08:30:47.663Z"}
+[32minfo[39m: This is an info message {"timestamp":"2024-11-29T08:30:51.149Z"}
+[31merror[39m: This is an error message {"timestamp":"2024-11-29T08:30:51.152Z"}
+[33mwarn[39m: This is a warning message {"timestamp":"2024-11-29T08:30:51.152Z"}
+[32minfo[39m: This is an info message"}
+[31merror[39m: This is an error message"}
+[33mwarn[39m: This is a warning message"}
+[32minfo[39m: This is an info message"}
+[31merror[39m: This is an error message"}
+[33mwarn[39m: This is a warning message"}
+undefined
+undefined
+undefined
+[32minfo[39m: This is an info message"}
+[31merror[39m: This is an error message"}
+[33mwarn[39m: This is a warning message"}
+[32minfo[39m: This is an info message"}
+[31merror[39m: This is an error message"}
+[33mwarn[39m: This is a warning message"}
+2024-11-29 14:03:14 [[32MINFO[39M]: This is an info message
+2024-11-29 14:03:14 [[31MERROR[39M]: This is an error message
+2024-11-29 14:03:14 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:03:30 [[32MINFO[39M]: This is an info message
+2024-11-29 14:03:30 [[31MERROR[39M]: This is an error message
+2024-11-29 14:03:30 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:04:51 [[32MINFO[39M]: This is an info message
+2024-11-29 14:04:51 [[31MERROR[39M]: This is an error message
+2024-11-29 14:04:51 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:05:32 [[32MINFO[39M]: This is an info message
+2024-11-29 14:05:32 [[31MERROR[39M]: This is an error message
+2024-11-29 14:05:32 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:06:07 [[32MINFO[39M]: This is an info message
+2024-11-29 14:06:07 [[31MERROR[39M]: This is an error message
+2024-11-29 14:06:07 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:06:20 [[32MINFO[39M]: This is an info message
+2024-11-29 14:06:20 [[31MERROR[39M]: This is an error message
+2024-11-29 14:06:20 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:07:27 [[32MINFO[39M]: This is an info message
+2024-11-29 14:07:27 [[31MERROR[39M]: This is an error message
+2024-11-29 14:07:27 [[33MWARN[39M]: This is a warning message
+2024-11-29 14:07:40 [[32minfo[39m]: This is an info message
+2024-11-29 14:07:40 [[31merror[39m]: This is an error message
+2024-11-29 14:07:40 [[33mwarn[39m]: This is a warning message
+2024-11-29 16:31:51 [[32minfo[39m]: get successfully
+2024-11-29 16:40:32 [[32minfo[39m]: get successfully
+2024-11-29 16:42:20 [[32minfo[39m]: user/get
